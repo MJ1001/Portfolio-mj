@@ -8,26 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="head">
+        <img  class = "logo_img" src="./logo2/logo_transparent.png" alt="">
         <nav class="nav-links">
-            <h2>Munjal Prapati</h2>
-            <h3>Resume</h3>
-            <h3>Projects</h3>
-            <h3>Contact</h3>
+            <!-- <h2 class="logo">&lt;mvp&gt;</h2> -->
+            
+            <h3 onclick="window.location.href='./resume.html'" class="nav-links-1"><span class= "underline--magical">Resume</span></h3>
+            <h3 onclick="window.location.href='./projects.html'" class="nav-links-2"><span class= "underline--magical">Projects</span></h3>
+            <h3 onclick="window.location.href='./contact.html'" class="nav-links-3"><span class= "underline--magical">Contact</span></h3>
 
         </nav>
     </header>
+    <div class="container">
     <div class="hero">
-        <img src="./img/portfolio_img.jpg" alt="">
+        <h3 class="info">Hi, I am <strong class = "strong-name"> Munjal Prajapati</strong></h3>
+        <h4 class="prof">Front-end Developer</h4>
+        <img class = "hero-img" src="./img/portfolio_img.jpg" alt="">
+        
     </div>
-    <div class="self-desc">
-        <img src="./img/coding_photo_1.png" alt="">
+    <div class="desc-content">
+        <!-- <img class="coding_img" src="./img/coding_photo_1.png" alt=""> -->
         <!-- 
             ---crediting the author---
             <a href='https://pngtree.com/so/programer'>programer png from pngtree.com</a> 
         -->
-        <h3>Description</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum consectetur id quis nobis porro, eum molestiae. To be filled later.</p>
+    <div class="self-desc">
+        
+        <h3 class="self-desc-heading"><span class = "underline--magical2">About Me</span></h3>
+        <p class="self-desc-info">I am Munjal Prajapati and I like making beautiful and responsive websites.
+            I also like watching doing some back-end coding with Python.
+        </p>
+        <p class="self-desc-info">In my free time(most of the time), I like to watch shows that I have already watched a <strong>1000</strong> times.</p>
     </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 2;
+  overflow-x: hidden;
+}
+.logo_img {
+  height: 12em;
+  width: 12em;
+  margin-right: auto;
+  cursor: pointer;
+}
+.container-color {
+  background-color: #ffb4a2;
+  margin-left: 10em;
+  height: 60vh;
+  margin-right: -100px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-wrap: normal;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 3.5px;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-links h3 {
+  margin: 0 60px;
+  cursor: pointer;
+}
+.nav-links-3 {
+  padding-right: 30px;
+}
+
+.page h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  width: 450px;
+}
+.objective {
+  margin: 10em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.objective p {
+  width: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.education {
+  margin: 10em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.edu {
+  width: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.work-exp {
+  margin: 10em 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .work-exp-try {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: left;
+} */
+.exp-1,
+.exp-2 {
+  margin: 10px;
+  padding: 10px;
+}
+.work-exp p {
+  width: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.skills {
+  margin: 10em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skills p {
+  width: 800px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  align-self: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #ffb4a2 10%, #ffb4a2 100%);
+  background-repeat: no-repeat;
+  background-size: 0 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  border-radius: 50px;
+}
+.underline--magical:hover {
+  background-size: 100% 10%;
+}
+/* .head {
+  height: 5vh;
+  margin: 0 0;
+}
+
+.nav-links {
+  /* font-family: "Major Mono Display", monospace; */
+
+/* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_img {
+  height: 15em;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: 3em;
+  margin-top: 0;
+}
+.logo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: 3em;
+  } 
+.nav-links h3 {
+  cursor: pointer;
+  margin: 0 2em;
+  letter-spacing: 3.5px;
+  color: #ffda22;
+}
+.nav-links-3 {
+  padding-right: 3em;
+} */
